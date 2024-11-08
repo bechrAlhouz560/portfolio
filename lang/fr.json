@@ -1,0 +1,15 @@
+{
+    "header": {
+        "home": "Accueil",
+        "about": "À propos",
+        "services": "Services",
+        "projects": "Projets",
+        "contact": "Contact"
+    },
+    "home": {
+        "greeting": "Bonjour, je suis Bicher Développeur Full Stack.",
+        "description": "Je suis un freelance professionnel avec plus de 2 ans d'expérience dans le développement de produits et services de niveau entreprise, y compris des applications web, mobiles et de bureau.",
+        "resume": "Mon CV",
+        "viewMore": "Voir plus"
+    }
+}

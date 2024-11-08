@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Header from "@/components/header/Header";
+import * as Lenis from "@/libs/react-lenis";
+import { LangContextProvider } from "@/contexts/LangContext";
 export const metadata: Metadata = {
   title: "Portfolio - Bicher Alhouz",
   description: "Official Portfolio website",
@@ -25,9 +27,14 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
+
       <body>
-        <Header />
-        <div className="main">{children}</div>
+        <LangContextProvider>
+          <Lenis.ReactLenis root>
+            <Header />
+            <div className="main">{children}</div>
+          </Lenis.ReactLenis>
+        </LangContextProvider>
       </body>
     </html>
   );

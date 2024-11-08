@@ -1,9 +1,11 @@
 import Image from "next/image";
-
-export default function Home() {
+import Home from "@/components/home/Home";
+import About from "@/components/about/About";
+export default function Page() {
   return (
-    <div>
-      <h1>test</h1>
+    <div className="slides">
+      <Home />
+      <About />
     </div>
   );
 }

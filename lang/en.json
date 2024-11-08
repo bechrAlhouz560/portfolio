@@ -1,0 +1,15 @@
+{
+    "header": {
+        "home": "Home",
+        "about": "About",
+        "services": "Services",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+    "home": {
+        "greeting": "Hello, I'm Bicher Full Stack Dev.",
+        "description": "I'm a professional freelancer with over 2 years of experience in developing business level products and services including web, mobile and desktop apps.",
+        "resume": "My Resume",
+        "viewMore": "View More"
+    }
+}

@@ -1,3 +1,8 @@
 .header {
-    @apply h-[75px] items-center flex px-10 gap-10 absolute top-0 left-0 w-screen
+    @apply h-[75px] items-center flex px-10 gap-10 fixed top-0 left-0 w-full transition-all;
+    z-index: 999999999999;
+}
+
+.nav-item {
+    @apply opacity-50 font-extralight hover:opacity-90 cursor-pointer transition-all
 }
